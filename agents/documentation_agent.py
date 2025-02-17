@@ -2,7 +2,6 @@ import openai
 from typing import Dict, List, Tuple
 
 State = Dict[str, List[Tuple[str, str]]]
-openai.api_key = ""
 
 def doc_chain(state: State) -> State:
     """
