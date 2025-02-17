@@ -2,7 +2,7 @@ import openai
 from typing import Dict, List, Tuple
 
 State = Dict[str, List[Tuple[str, str]]]
-openai.api_key = "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"
+openai.api_key = ""
 
 def doc_chain(state: State) -> State:
     """
